@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'Interesting websites that I visit regularly!'
+tags:
+  - learnings
+  - lessons
+
+---
+
+I kept bookmarking these websites on my browser for long, and today I decided to share it with the world. There is quite a lot of information there on internet which a normal person cannot process, how will I filter out what I wanted from all the junk and keep it at a single place so I can access whenever I need them."Bookmarking" was a good idea, but there must be somebody there who has same interests as mine, and is facing similar difficulties of keeping unwanted stuff away.So for them here is an aggregation of websites that I felt are useful and informative.
+
+<strong>1. Programming practice</strong>
+<ul>
+	<li>www.topcoder.com</li>
+	<li>www.spoj.pl</li>
+</ul>
+<strong>2. Algorithms</strong>
+<ul>
+	<li>TO BE UPDATED LATER</li>
+</ul>
+<strong>3. Mathematics</strong>
+<ul>
+	<li>www.cut-the-knot.org  - Interesting math problems+solutions.</li>
+</ul>
+<strong>4. Programming Languages (C++/Java)</strong>
+<ul>
+	<li>www.mindview.net - They release Thinking in Java,Bruce Eckel - 4th Edition.</li>
+	<li>http://www.cs.brown.edu/people/jak/tmp/00-intro.pdf  - An interesting intro to C++</li>
+</ul>
+<strong>5. General</strong>
+<ul>
+	<li>http://sites.google.com/site/steveyegge2/practicing-programming</li>
+</ul>

@@ -1,0 +1,8 @@
+---
+layout: post
+title: '34 days of absence!'
+
+---
+
+I've been offline for almost 34 days since my last post. The reason happened to be an unplanned long vacation. A short 10 days plan turned its head over and made me enjoy a month+ long vacation. Not bad when I look back. But, has all the essence of an software project that was not well planned. There were no clear ideas on what my directions are , neither my parents had no clear idea about how they want to utilize my presence at home. But, we ( me &amp; my soul partner) enjoyed a beautiful vacation in Kerala &amp; Bangalore with rainy season throwing her tantrums and temples keeping us close to god.
+I am back to my seat with a fresh and relaxed mind, and the world can expect me to write stories about my daily lessons.

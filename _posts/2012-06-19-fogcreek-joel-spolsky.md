@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'FogCreek & Joel Spolsky ! '
+
+---
+
+During my graduate days at <a href="http://www.lse.ac.uk" target="_blank">LSE</a> , I wrote an article on internet addiction considering self as the subject. Meaning, I evaluated myself  and the amount of time I spent on internet searching various topics(definitely Google),watching videos (Youtube), Football (Soccer) on BBC/ITV especially champions league/Premier League and various other interesting activities. In my research, I pointed out that internet is a distraction and a tool that reduces productivity and learning capabilities of an individual due to the number of choices and the distractions that it offers. Well, that's past, fast forwarding myself 3 years into 2012, I regularly use internet to read free books online ;) to learn more about computing and to read various blogs written by very good authors(Steve Yegge, Joel Spolsky, GigaOm, businessinsider.com, Techcrunch.com) to keep a tab on silicon valley innovation.
+
+On a sojourn through internet, scouring various articles and blogs, I came across this interesting blog (www.joelonsoftware.com) written by Mr. Joel Spolsky. It has a lot of interesting content on innovation, work, recruitment and programming. I started reading from his first blog in Dec,1999. So far, I have finished all the articles up to Dec,2001. It was very interesting to read about his opinions on how interviews can be improved by asking useful and meaningful questions? How managers should take into account that productivity and innovation can be impeded due to unwanted control of the programmers? He gives a very good account of it by citing real life examples he had gone through at Microsoft and Juno online.I feel, FogCreek software is the sum of all these thoughts instead of just another software company.
+
+Now, why am I writing about the same stuff that someone else had talked about? I have been working in the IT industry for the last 6+ years and I can actually see the point in most of Joel's writings. It is very important to have a sense of ownership and freedom for innovative ideas to flourish. This will only come, if you recruit good employees.More than that, a command + control manager can spoil the work environment and can even cause a good employee to leave the organization.To get the best out of programmers, it is better to give them a peaceful and conducive environment or else we will end up with shit code that is full of bugs.Finally, a single shitty programmer can spoil the mode of  f(n) other good programmers.
+
+where f(n) is an exponential function most of the time.
