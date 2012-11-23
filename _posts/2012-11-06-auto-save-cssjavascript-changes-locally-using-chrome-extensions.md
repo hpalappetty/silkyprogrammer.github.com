@@ -25,20 +25,20 @@ Tincr is pretty easy to set up on Chrome. All we have to do is to install it fro
 
 For Django developers , configuration may spring a surprise. You will not see any support for Django projects :) but not to worry, just select the configuration file option, and select the "tincr.json" file from the root of your application. A sample tincr.json file is as follows, this file is used by me ( as you can notice that I have added my css &amp; javascript files in media directory)
 
-[sourcecode language="css"]
-{
-&quot;toFile&quot; : [
-  {&quot;from&quot;: &quot;/media/(.+\\.js)&quot;,
-   &quot;to&quot;: &quot;media/$1&quot;},
-   {&quot;from&quot;: &quot;/media/(.+\\.css)&quot;,
-   &quot;to&quot;: &quot;/media/$1&quot;}
+
+`{
+toFile : [
+  {from: /media/(.+\\.js),
+   to: media/$1},
+   {from: /media/(.+\\.css),
+   to: /media/$1}
   ],
-  &quot;fromFile&quot; : [
-     {&quot;from&quot;: &quot;(\\\\|/)media\\1(.+(\\.js|\\.css))(\\.[a-zA-Z]+)?$&quot;,
-      &quot;to&quot;: &quot;/media/$2?body=1&quot;}
+  fromFile : [
+     {from: (\\\\|/)media\\1(.+(\\.js|\\.css))(\\.[a-zA-Z]+)?$,
+      to: /media/$2?body=1}
       ]
-}
-[/sourcecode]
+}`
+
 
 You can have the original configuration file from <a title="Tincr Docs" href="http://tin.cr/docs.html" target="_blank">http://tin.cr/docs.html </a>and modify it according to your project directory structure.
 
