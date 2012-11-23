@@ -15,17 +15,15 @@ Anyways, why this rambling on data? over the last few days ( approx. 300+ days) 
 
 When I say this, many will contest, if you know the logic , you should be able to implement it. Ahh! Not necessarily. For.e.g if we ask a prospective candidate ( hypothetical) to write few lines of code to sum all the squares of odd nos. from 1 to 10 and print the result. For your surprise you can see that most of them will write a for loop and then sit thinking what to do. It will appear mostly, like this at the end of interview,
 
-[sourcecode language="css"]
+	'for (int i=0,i&lt;10;i++){
+	//sum of the squares of all odd nos.
+	//Note there won't be any code here, because the candidate lacks implementation skills.
+	//and do not know what to write or how to implement the logic
+	//He/she knows that sum = square (1)+square(3)+square(5)+square(7)+square(9)
+	//But cannot transform that thought to code on computer or paper.
+	}`
 
-for (int i=0,i&lt;10;i++){
-//sum of the squares of all odd nos.
-//Note there won't be any code here, because the candidate lacks implementation skills.
-//and do not know what to write or how to implement the logic
-//He/she knows that sum = square (1)+square(3)+square(5)+square(7)+square(9)
-//But cannot transform that thought to code on computer or paper.
-}
 
-[/sourcecode]
 
 So, what is the reason of this lack of implementation skills? I felt, it is due to the following,
 <ol>
