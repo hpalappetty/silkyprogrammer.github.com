@@ -7,17 +7,17 @@ tags:
 
 ---
 
-I am planning to arrange  in-depth self lessons on 6 programming languages over a period of 12 months.
+I am planning to arrange  in-depth self lessons on 6 programming languages over a period of 12 months(1 year).
 
 Decided to go through the following ones,
 <ul>
-	<li>Perl</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>C++</li>
-	<li>Objective-C ( Its the newbie in my stack after my wife presented my first MacBook last week)</li>
-	<li>JavaScript</li>
+	<li>Perl</li> ( ignored as of Dec,2012)
+	<li>PHP</li> (ignored as of Dec,2012)
+	<li>Python</li> (Continuing)
+	<li>C++</li> (Ignored and put my head into Java in 2012, but have plans to takeup in 2013)
+	<li>Objective-C ( Its the newbie in my stack after my wife presented my first MacBook last week)</li> (ignored as of Dec,2012)
+	<li>JavaScript</li>(Will start in 2013)
 </ul>
-There might be quite a lot of questions, why no Java,#.Net blah blah blah. I simply don't care , I felt these are the ones I should focus on! I do have a book on Android development written by <a href="http://blog.radioactiveyak.com/" target="_blank"><em>Reto Meier</em></a>, so I may read it intermittently.
+There will be lot of questions, why no Java,#.Net blah blah blah. I simply don't care , at this point I felt these are the ones I should focus on! I do have a book on Android development written by <a href="http://blog.radioactiveyak.com/" target="_blank"><em>Reto Meier</em></a>, so I may read it intermittently.
 
-Have fun coding!n Hacking !
+Have fun Coding !
