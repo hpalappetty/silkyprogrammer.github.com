@@ -13,6 +13,7 @@ tags:
 <strong>The Problem :</strong> Getting distracted quite frequently ( in between work)- Yakkk, very bad
 
 <p>While coding, what do I need to get good work out of me ?</p>
+<blockquote>
 <ul>
 	<li>A computer ( I plug my Macbook to a 27 inch Monitor so that I can see everything clearly )</li>
 	<li>An Editor ( The battle ground, where I should be sword fighting)</li>
@@ -21,6 +22,7 @@ tags:
 	<li>Music ( Although I hate iTunes, I don't have any other options such as Spotify or Pandora, may be someday they'll launch it here with Bollywood beats - I am a big fan of Bhangra music Yo Yo Honey Singh ;) )</li>
 	<li> Internet (24x7) but this connectivity can be a nightmare at times</li>
 </ul>
+</blockquote>
 These items above should be good enough to get some code out from me(If it's a late night session, then there is nothing better). The problem is, mind wanders like a rein-less horse at times.And , it just gets into the jungle called internet and starts searching for new Mac hacks, apps, this code that code .... I should say sometimes, It just sucks you in and takes all your precious time.
 
 The way technology is proliferating every aspect of our life, this is bound to happen. And, being a coder(although, this is not my real job) interested in learning the inner workings of all these magical softwares that I see around me, I am gonna dig the dirt isn't it.
@@ -34,11 +36,13 @@ I am sure, now you are getting a hang of how my mind wanders from one topic to a
 <strong>The solution:</strong>
 
 There are plenty of solutions suggested by knowledgeable people, some of my favorite ones that I use to try and get myself back are
+ 	<blockquote>
  	<ul>
 		<li>Pomodoro technique ( If you use kanbanflow.com  they have a nice looking pomodoro timer try it out its free)</li>
 		<li>The 50+10 rule ( Avoid all distractions and work for 50 minutes then take 10 mins break)</li>
 		<li>The 15 + 5 rule ( 15mins work+ 5 mins break, increment it slowly till you can get to the 50+10 rule)</li>
 	</ul>
+	</blockquote>
 
 <strong>Will it work:</strong>
 
