@@ -14,7 +14,8 @@ ul, ol{
 h1, h2, h3, h4, h5, h6 { 
     /*font-family: 'Fredericka the Great', cursive; */
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: #cc3333;
+   /* color: #cc3333;*/
+    color: #b2cfeb;
     line-height: 1;
     margin:0;
     padding:0;
@@ -24,8 +25,8 @@ h1, h2, h3{
 }
 a{
     text-decoration: none;
-    color: #cc3333;
-    /*color: #444;*/
+   /* color: #cc3333;*/
+    color: #b2cfeb;
 }
 h1 {
     font-weight: normal;
@@ -35,7 +36,8 @@ h1 {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
 }
 h1 a{
-    color: #cc3333;
+/*    color: #cc3333;*/
+      color: #b2cfeb;
 }
 code, pre {
     padding: 0 3px 2px;
