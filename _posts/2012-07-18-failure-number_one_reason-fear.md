@@ -12,11 +12,14 @@ For anyone who is confused about the title , <em>" All I am trying to say is FEA
 
 I am sure many will argue, NOOOOOO fear is not the number one reason and all that ! I am quite happy with the way you think, keep thinking ! It's a good habit to cultivate.Why do I feel fear is the number one reason for failure? I can explain that using the following real life scenario,
 
-<strong>Goal:</strong> Drive Down approx. 2000 miles + over a period of 15 days ( a small south India tour) starting from Mumbai.<strong></strong>
+<strong>Goal:</strong> 
+Drive Down approx. 2000 miles + over a period of 15 days ( a small south India tour) starting from Mumbai.
 
-<strong>Plan:</strong> Get the car serviced ( It's a German car, well engineered, have not given any problems so far in its 4 years of service, but you know leave nothing for a chance! Hence the expensive servicing)
+<strong>Plan:</strong>
+Get the car serviced ( It's a German car, well engineered, have not given any problems so far in its 4 years of service, but you know leave nothing for a chance! Hence the expensive servicing)
 
-<strong>All set to ride:</strong> Dreaming about driving down the winding roads of  western ghats in kerala, awesome express corridor from Bangalore to Kerala, and the  8 lane Pune - HYD express way. All this dreams got shattered ?? HOW?? <span style="color:red;">Villain : My Sister</span>.
+<strong>All set to ride:</strong>
+Dreaming about driving down the winding roads of  western ghats in kerala, awesome express corridor from Bangalore to Kerala, and the  8 lane Pune - HYD express way. All this dreams got shattered ?? HOW?? <span style="color:red;">Villain : My Sister</span>.
 
 She planted a sense of fear in to poor little wife's brain :( . Now you may ask what the hell did she say? Only this much, this is all that she said "<strong><em> It's raining heavily , driving down all the way from Mumbai??? Don't you think it's risky?</em></strong> Rest I think readers can imagine! On point blank road trip cancelled, train ticket is ready and my journey transcended into a meagre 24hr + train ride with no fun or adventure for that matter.
 
