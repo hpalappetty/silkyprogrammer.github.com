@@ -8,25 +8,35 @@ tags:
   - technology
 
 ---
-
+<p>
 I have been an iPhone user since November, 2008, I bought one while I was a student in London, after seeing quite a lot of them in the hands of my friends.I was also impressed by the way various apps worked on it. It was quite not like any other phone I had seen till that time.The phone became a part of me over the months, and it kept me in sync with my friends and network through the elegant apps that were available from App World. I did not foresee what was to come. After completing my studies, I moved back to India and looks like my iPhone did not like the hot weather, humidity and pollution of Mumbai. It all started  with "Service Not Available" message randomly. The phone will show up network service for some time and then it will all disappear. I used to re-start the phone at times thinking that it will solve the network issues, and if there are any memory related issues it could also be solved with a good restart. A phone, that worked perfectly for almost 2 years, started giving nightmare since April,2011.
-
+</p>
+<p>
 Every time my parents had to try at least 4 or 5 times to reach me.They ended up receiving messages like, "This phone is switched off", "This phone is out of network" and all those regular messages we Indian's normally receive during peak network hours. I kept blaming the poor infrastructure/support provided by Vodafone, India and blatantly blamed their customer support team.Here, I was acting as one of those maniacal Apple supporter who believed Steve Jobs and his team cannot deliver a faulty product and my iPhone 3GS is not at fault :) I sympathize with myself now !
-
+</p>
+<p>
 As a trial, I switched back to my old Nokia N-73 and Wowww !! I am back alive, everyone can call me and get to me without any problem. Even in remote places, my N73 kept giving reasonable amount of signal so that my parents could reach me! . That's interesting.
-
+</p>
+<p>
 Everything went back to normal, but after a whole year plus few extra days of suffering and lots of unpleasant stories.What did Apple leave me with due to their faulty signal receiver or whatever crap they have installed on their famous iPhone's?
+</p>
+<blockquote>
 <ul>
 	<li>Frustrated family members, who could not reach me during emergencies.</li>
 	<li>Frustrated friends who could not reach me so easily?? ( Most of the time when they tried to call me, I was not reachable ;)) Good that I am married, and have a lovely and understanding wife or else, I would have ended up explaining  why I was not reachable even after owning the world famous iPhone to my girl friend. God you saved me from that ! The phone that made <em><strong>Kevin Systrom</strong></em> an overnight billionaire , could have fucked up my life ! irony isn't it!</li>
 	<li>Frustrated prospective employers ( They could never ever get to me ! Awesome ! This guy is not at all reachable, what more you need to piss off an HR person?? Apple you cost me plenty of good job opportunities. People who referred me for employment got fried by HR from some top companies, as they could not reach me ! all because of a faulty iPhone.)</li>
 </ul>
+</blockquote>
+<p>
 All in all, I should have went back to some good old Nokia phone/ another provider long back. Anyways, that's life as some old Indian sage said "<em> Everything that has happened is for good, and that is happening is for good and everything that is going to happen is also for good</em>". I learned a lot about iPhone and its benefits, there is no question about it. For e.g. iOS programming and all, but finally its a phone and the whole point of having one is to help me get in touch with people through voice/internet, and if it does not serve its basic purpose I do not believe that it is doing any good.
-
+</p>
+<p>
 After all this nonsense, I am very skeptical about using any modern phone with all those fancy stuff in it. Be it  iOS/ Android/RIM. Wish Nokia never fell into this rat race and produced good sturdy phones, all they had to do was to trim down the bulk in their phones. If it was not for the fatty N-73, I would have never switched to iPhone.Some of the old Nokia phones are still treasured by many of my country men including my family members and me.
-
+</p>
 My requests:
-<ul>
-	<li>Nokia : Please produce good old Symbian Phones, that are sturdy and lasts long. I am sure you guys can do it.</li>
-	<li>Apple : Please correct your signal receivers/ whatever to solve this signal related issues on your iPhone's. Otherwise, its just a piece of Crap</li>
-</ul>
+<blockquote>
+  <ul>
+	  <li>Nokia : Please produce good old Symbian Phones, that are sturdy and lasts long. I am sure you guys can do it.</li>
+	  <li>Apple : Please correct your signal receivers/ whatever to solve this signal related issues on your iPhone's. Otherwise, its just a piece of Crap</li>
+  </ul>
+</blockquote>
