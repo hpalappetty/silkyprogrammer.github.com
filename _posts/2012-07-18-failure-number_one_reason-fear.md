@@ -35,7 +35,14 @@ risks and enjoy the fruits of it either in the form of failure or
 success. My journey could have had many troubles, it's not a small
 amount of distance that I was planning to cover. Tyre's could have gone flat, it could have busted off, car could skid off, I could meet with accident the possibilities are enormous.May be nothing would have happened, and I would have happily ridden all around south India in this beautiful monsoon season. A small fear factor from one of the family member spoiled all of it. What happened here ? Nothing other than trashing a goal, diverting your attention,loosing focus and then the failure of your project.Fear can make you do things that are mediocre and it will curtail your ability to think freely and take good decisions. No one has achieved anything in life by being afraid, you got to stand up face your fears, challenge it and just beyond that brick wall lies your success.
 
-This is a pattern which we can see on a daily basis. What we can learn from it? It's not just an individual's decision, if you are a team everyone's thought matters. A team is like a family, one person goes off track whole project gets diverted/may be even killed. So, it is important while building an organization to bring in employees who are fearless and skilled.Because, there is no such thing as assured success, it's all a game of probability (50-50). No matter what you will learn a lot!
+This is a pattern which we can see on a daily basis. What we can learn
+from it? It's not just an individual's decision, if you are a team
+everyone's thought matters. A team is like a family, one person goes off
+track whole project gets diverted/may be even killed. So, it is
+important while building an organization to bring in employees who are
+fearless and skilled.Because, there is no such thing as assured success,
+it's all a game of probability (50-50). No matter what, you will learn a
+lot in that journey!
 
 BE FEARLESS, LEARN AND EXPLORE ! There is plenty to see and learn from this world!
 
