@@ -1,6 +1,6 @@
 ---
-layout:post
-title: Installing LinuxMint 14 (Nadia) in your laptop
+"layout" : "post"
+"title" : "Installing LinuxMint 14 (Nadia) in your laptop"
 ---
 
 <p>
