@@ -6,9 +6,9 @@ tags:
   - heroku
 
 ---
-
+<p>
 For long I thought heroku is the den built specifically for ruby programmers. Looks like the landscape is changing! Now Djangoer's can peep into the Heroku stack with a wry smile and enjoy the fruits of their work.Today, I am interested in sharing what I learned while deploying my test app to heroku cedar stack.
-
+</p>
 <ol>
 	<li>A bit of basic python knowledge helps a long way.</li>
 	<li>You should have a working Django based application.</li>
@@ -19,27 +19,28 @@ For long I thought heroku is the den built specifically for ruby programmers. Lo
 	<li>My requirements.txt looks have the following content,</li>
 </ol>
 
-
+<p>
 	Django==1.4.1
 	South
 	psycopg2==2.4.5
 	dj-database-url==0.2.0
 	Flask==0.9
-
+</p>
 
 <p>Add all the files to git. ( so a github account is essential, if you wannabe a good social coder.)</p>
-
+<blockquote>
 	$git init
 	$git add .
 	$git commit -m &quot;commits&quot; ( if you dont have git configured on your system, the above commands wont work well)
 	$git push
-
+</blockquote>
+	
 
 <li>Push your application to the heroku stack <strong>$ git push heroku master</strong></li>
 <li>Run your server using heroku South <strong>$heroku run python manage.py/runserver</strong></li>
 <li><strong>SyncDB</strong> before opening the website. Here is the catch, you got to setup your postgres DB instance on heroku. You can do that by login to <strong>https://postgres.heroku.com</strong> . NO PAYMENTS, but they might take your credit card details for account verification, but no charges.I found this a bit annoying, if I am not charged then why the heck  do I have to give away my Credit card details.I am just testing the stuff dude. Anyway, the end result is good, so no cribbing. Heroku, will give you the DATABASE details to be pasted in your <strong>settings.py</strong> file, it will look something like this,</li>
 </ol>
-
+<blockquote>
 	 DATABASES = {
 	'default': {
 	'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -50,6 +51,8 @@ For long I thought heroku is the den built specifically for ruby programmers. Lo
 	'PASSWORD': 'ASADSADSADASDASDASD'
 	}
 	}
+</blockquote>
+	
 
 <ol>
 	<li>Once you paste the above details to your settings.py ,  add the files to git again and then push master branch to heroku stack.This will keep heroku up to date.</li>
