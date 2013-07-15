@@ -9,9 +9,9 @@ tags:
   - timemanagement
 
 ---
-
+<p>
 <strong>The Problem :</strong> Getting distracted quite frequently ( in between work)- Yakkk, very bad
-
+</p>
 <p>While coding, what do I need to get good work out of me ?</p>
 <blockquote>
 <ul>
