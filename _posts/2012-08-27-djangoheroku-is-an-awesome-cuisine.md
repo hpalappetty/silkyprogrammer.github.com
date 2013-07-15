@@ -35,7 +35,7 @@ For long I thought heroku is the den built specifically for ruby programmers. Lo
 	$git push
 </blockquote>
 	
-
+<ol>
 <li>Push your application to the heroku stack <strong>$ git push heroku master</strong></li>
 <li>Run your server using heroku South <strong>$heroku run python manage.py/runserver</strong></li>
 <li><strong>SyncDB</strong> before opening the website. Here is the catch, you got to setup your postgres DB instance on heroku. You can do that by login to <strong>https://postgres.heroku.com</strong> . NO PAYMENTS, but they might take your credit card details for account verification, but no charges.I found this a bit annoying, if I am not charged then why the heck  do I have to give away my Credit card details.I am just testing the stuff dude. Anyway, the end result is good, so no cribbing. Heroku, will give you the DATABASE details to be pasted in your <strong>settings.py</strong> file, it will look something like this,</li>

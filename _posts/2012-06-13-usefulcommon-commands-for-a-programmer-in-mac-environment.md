@@ -31,15 +31,18 @@ $ ls -l | egrep `^d'
 <p>
 This command helps the user to list all the directories.
 </p>
-$ nano .profile  [<em>I use nano, instead of "vi", please use an editor of your choice]</em>
+<blockquote>
+$ nano .profile  [<em>I use nano, instead of "vi", please use an editor of your choice]</em>	
+</blockquote>
+
 <p>
 This is to change .profile file to set the PATH. You can find the .profile file in the home directory. use ctrl +O to save the file and ctrl+x to exit from the file. After you complete this step you have to run/execute this .profile file once to get the set PATH up and working for you. TO DO THAT type in   $  .  ./.profile  and press enter.
 </p>
-$ echo $PATH
+<blockquote>$ echo $PATH</blockquote>
 <p>
 This will show you all the set values in system PATH. This is similar to the stuff , we see in Windows PATH variable .
 </p>
+<blockquote>
 $ sudo ln -s [path-1]/something  /usr/local/bin/[something]
-<p>
 e.g. sudo ln -s /path/to/django/bin/django-admin.py /usr/local/bin/django-admin.py
-</p>
+</blockquote>
