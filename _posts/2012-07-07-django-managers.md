@@ -5,11 +5,9 @@ title: 'Django Managers'
 ---
 <p>
 A manager is a special attribute used to query the Database while using Django framework.
-
 For e.g. In Django code  <strong>Person.objects.all</strong>
-
- <strong>Person</strong> is the <strong>model</strong>.
- <strong>objects</strong> is the <em><strong>manager</strong></em><strong></strong>.
+<strong>Person</strong> is the <strong>model</strong>.
+<strong>objects</strong> is the <em><strong>manager</strong></em><strong></strong>.
 <strong>Points to remember:</strong>
 </p>
 
