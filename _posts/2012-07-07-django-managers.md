@@ -3,7 +3,7 @@ layout: post
 title: 'Django Managers'
 
 ---
-
+<p>
 A manager is a special attribute used to query the Database while using Django framework.
 
 For e.g. In Django code  <strong>Person.objects.all</strong>
@@ -11,6 +11,8 @@ For e.g. In Django code  <strong>Person.objects.all</strong>
  <strong>Person</strong> is the <strong>model</strong>.
  <strong>objects</strong> is the <em><strong>manager</strong></em><strong></strong>.
 <strong>Points to remember:</strong>
+</p>
+
 <ol>
 	<li>Each Django model has at least one manager.</li>
 	<li>It is possible to write custom managers.</li>
@@ -21,7 +23,7 @@ Why do we need custom manager? There are several reasons , but the most common o
 	<li>To modify the initial QuerySet that is returned by the manager.</li>
 	<li>Helps to avoid having duplicate code.</li>
 </ol>
-<strong>Example of a custom manager for Person Model</strong>
+<p><strong>Example of a custom manager for Person Model</strong></p>
 
 	#models.py
 	from django.db import models
@@ -38,7 +40,7 @@ Why do we need custom manager? There are several reasons , but the most common o
 	<em> Person.objects.person_count('john')</em> # will return the count of people with name 'John'
 	3
 
-You can modify initial QuerySet by overriding Manager.get_query_set() method. A good example is
+<p>You can modify initial QuerySet by overriding Manager.get_query_set() method. A good example is</p>
 
 	<em>class MaleManager(models.Manager):</em>
 	<em> def get_query_set(self):</em>
@@ -56,7 +58,7 @@ You can modify initial QuerySet by overriding Manager.get_query_set() method. A 
 	<em>malemgr = MaleManager()</em> # manager to manipulate initial query set for filtering males.
 	<em>femmgr = FemaleManager()</em> # manager to manipulate initial query set for filtering females.
 
-Calls to these managers are done as follows:
+<p>Calls to these managers are done as follows:</p>
 <em> Person.malemgr.all()</em>
 <em>  Person.femmgr.all()</em>
 <em>  Person.people.all()</em>
