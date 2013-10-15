@@ -15,13 +15,14 @@ For e.g. In Django code  <strong>Person.objects.all</strong>
 	<li>Each Django model has at least one manager.</li>
 	<li>It is possible to write custom managers.</li>
 </ol>
-Why do we need custom manager? There are several reasons , but the most common ones being,
+<p>Why do we need custom manager? There are several reasons , but the most common ones being,</p>
 <ol>
 	<li>To add extra manager methods to provide table-level functionality to models.</li>
 	<li>To modify the initial QuerySet that is returned by the manager.</li>
 	<li>Helps to avoid having duplicate code.</li>
 </ol>
 <p><strong>Example of a custom manager for Person Model</strong></p>
+
 
 	#models.py
 	from django.db import models
