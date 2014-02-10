@@ -16,11 +16,11 @@ Title: 'Adding tomighty pomodoro timer to Ubuntu startup applications'
 
 <p>Copying from Downloads to /opt or /tools can be done by</p>
 
-    $ cp ~/Downloads /opt
+    $ cp ~/Downloads/tomighty.jar /opt
 
     or
 
-    $ cp ~/Downloads /tools
+    $ cp ~/Downloads/tomighty.jar /tools
 
 <p>Contents of tomighty.sh is </p>
 
