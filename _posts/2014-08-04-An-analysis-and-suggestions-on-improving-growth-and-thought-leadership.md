@@ -31,25 +31,20 @@ Thank you for giving me an opportunity to share my analysis on ORGX's growth. I 
 Technology  - Again, over the last few years when startup's embraced technologies like Python, Ruby, Django, Rails, NodeJS to take world by storm, we sat with our comfort zone of PHP & Java. Today, when we look back I feel, we lost several opportunities to take the lead in market because of this. But, then as the saying goes " better late than never",</P>
 
 		1. We must have proper technology adoption/rejection strategy.
-		2. We must train and develop champions in our focus areas - easy to train a young dragon than a veteran.
+		2. We must develop champions in our focus areas - easy to train a young dragon.
 		3. We must look out into the world and capture the trends to take the lead.
-		4. We must encourage our young budding & promising engineers or managers to write blogs and articles to create and share wealth of knowledge.
+		4. We must encourage writing blogs and articles to share wealth of knowledge.
 		5. We must create a learning culture, where our employees can learn, experiment and develop.
 		6. Internet & Mobility is the future, we must embrace it, love it, live it and sleep on it.
-		7. Technology leadership must embrace the new world order, become a champion and pillar of this growth - creating a honeycomb structure around him, with lots of technology geek bees. Their words means a lot to the outside world to start trusting us as a service/solution provider - They must start sharing their wealth of knowledge.
-
+		7. Technology leadership must embrace the new world order- Internet of everything.
 
 <p>Infrastructure - Although, we have a great office the backbone on which an IT company's life revolves around ( Internet) is very bad in our case. My experience is that it is unstable and have a very fluctuating behvaior which makes production deployments very difficult on a bad day.</p>
 
 		1. We must have very solid internet connection - and it must work when it is needed the most.
-		2. We must give good laptop's to our engineers - A good Laptop is a basic necessity rather than positional significance.
-		3. We must have a standard policies on the above two points, otherwise it would be difficult to employ it organisation wide.
-
+		2. We must give good laptop's to our engineers - A good Laptop is a basic necessity.
 
 <p>Finally, we have people, skills and infrastructure in place - what we need is our own products either used internally, sold externally or opensourced. I understand, we cannot have multiple products - but we can have atleast 2 or 3 good products in the space of e-learning, PLM (product lifecycle management) or mobility which all of our employees can contribute to.</p>
 		1. We must inculcate/facilitate habit in our employees to contribute to opensource.
 
-<p>I know, few years down the lane I will have to step aside so that another youngster can lead. That is how nature balances it, change is the only constant - we all have to move on. But, I feel we all can move on after making an impact in few people's life because only that will remain for long.
-
-I do not know, how much of what I wrote is in sync with becoming a thoughleader or a brand to reckon with in this ever changing industry. But I honestly think, if we play it right we can stay for long and actually become a force to reckon with in another 5 to 10 years time. </p>
+<p>I know, few years down the lane, I will have to step aside so that another youngster can lead. That is how nature balances it, change is the only constant - we all have to move on. But, I feel we all can move on after making an impact in few people's life because only that will remain for long.I do not know, how much of what I wrote is in sync with becoming a thoughleader or a brand to reckon with in this ever changing industry. But I honestly think, if we play it right we can stay for long and actually become a force to reckon with in another 5 to 10 years time. </p>
 
