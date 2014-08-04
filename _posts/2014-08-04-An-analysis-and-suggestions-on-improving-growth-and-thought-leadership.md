@@ -14,7 +14,7 @@ Thank you for giving me an opportunity to share my analysis on ORGX's growth. I 
 		4. Products
 
 
-<p>People are the building blocks of any top institution, at present I see a void ( Big one for sure) at Above. We did not consider developing appropriate foundation over the last 4-5 years, this lack of foresight is creating strain on the current team. Now, the question would be what do you mean by Foundation? When I say foundation, I mean talented/trained software professionals who are fresh out of college. Hiring, these good boys/girls is not enough we need to </p>
+<p>People are the building blocks of any top institution, at present I see a void ( Big one for sure) at ORGX. We did not consider developing appropriate foundation over the last 4-5 years, this lack of foresight is creating strain on the current team. Now, the question would be what do you mean by Foundation? When I say foundation, I mean talented/trained software professionals who are fresh out of college. Hiring, these good boys/girls is not enough we need to </p>
 
 		1. Create a environment where they are nurtured, rather than beaten to pulp.
 		2. We need to have mentors rather than hammers.
