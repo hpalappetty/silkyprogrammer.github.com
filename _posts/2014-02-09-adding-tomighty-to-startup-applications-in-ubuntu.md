@@ -9,9 +9,9 @@ Title: 'Adding tomighty pomodoro timer to Ubuntu startup applications'
 
 <p>Following are the steps to get this done on Ubuntu Machine</p>
 
-      1. Download tomighty.jar from http://www.tomighty.org/download - All operating systems jar file.</li>
-      2. Copy this from Downloads to /opt or /tools wherever you keep your useful toolset.</li>
-      3. Create a tomighty.sh file for creating an entry in startup applications</li>
+      1. Download tomighty.jar from http://www.tomighty.org/download - All operating systems jar file.
+      2. Copy this from Downloads to /opt or /tools wherever you keep your useful toolset.
+      3. Create a tomighty.sh file for creating an entry in startup applications.
 
 
 <p>Copying from Downloads to /opt or /tools can be done by</p>
