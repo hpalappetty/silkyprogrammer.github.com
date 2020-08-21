@@ -6,7 +6,7 @@ layout: post
 
 <br>
 <b>21/Aug/2020:</b>
-- A copy of Truecaller (with no advertisement and high privacy)
+- An app to know the caller (with no advertisement and high privacy)
 - An app that helps me find where I parked my car.
 - An app that can help track your kids, if they're wearing a smart watch.
 - An app that helps you to take a pic of dirty places/deeds in the city and send to respective twitter handle.
