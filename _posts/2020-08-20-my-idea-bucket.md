@@ -2,7 +2,21 @@
 title: My Idea Bucket
 layout: post
 ---
-<p>In this post, I intend to continue update 5-10 app ideas that I generate as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
+<p>In this post, I intend to continue updating 5-10 app ideas that I can generate daily as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
+
+<br>
+<b>27/Aug/2020:</b>
+- A habit management app for the many habits people want to develop.
+
+
+<br>
+<b>23/Aug/2020:</b>
+- An app to learn about the value of essential oils and our ancient healing techniques.
+- An School Management System for everyone(Owners, Kids, Parents and Teachers).
+
+<br>
+<b>22/Aug/2020:</b>
+- An app that help small shop owners to list their products and receive orders with payment.
 
 <br>
 <b>21/Aug/2020:</b>
