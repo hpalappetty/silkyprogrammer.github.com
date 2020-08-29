@@ -8,7 +8,7 @@ layout: post
 <b>29/Aug/2020:</b>
 - A know your device app, to understand the system information/usage.
 - A remind me app, important dates for many things in life (birthdays, anniversaries, insurance renewals, school fee payment, bill payments, anything recurring in life)
-
+- A news app that only focuses on Technology leadership, changes and growth/fall.
 
 <br>
 <b>27/Aug/2020:</b>
