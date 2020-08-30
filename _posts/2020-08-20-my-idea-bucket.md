@@ -5,6 +5,10 @@ layout: post
 <p>In this post, I intend to continue updating 5-10 app ideas that I can generate daily as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
 
 <br>
+<b>30/Aug/2020:</b>
+- An app to understand the positiveness of an article.
+
+<br>
 <b>29/Aug/2020:</b>
 - A know your device app, to understand the system information/usage.
 - A remind me app, important dates for many things in life (birthdays, anniversaries, insurance renewals, school fee payment, bill payments, anything recurring in life)
