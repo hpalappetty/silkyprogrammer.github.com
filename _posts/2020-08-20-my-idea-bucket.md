@@ -5,6 +5,12 @@ layout: post
 <p>In this post, I intend to continue updating 5-10 app ideas that I can generate daily as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
 
 <br>
+<b>08/Sep/2020:</b>
+- An app to calculate/manage income tax (India).
+- A calendar management app for sports locations.
+
+
+<br>
 <b>31/Aug/2020:</b>
 - An android app framework for e-commerce installations.
 
