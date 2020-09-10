@@ -5,6 +5,22 @@ layout: post
 <p>In this post, I intend to continue updating 5-10 app ideas that I can generate daily as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
 
 <br>
+<b>10/Sep/2020:</b>
+- A weather app with pollution indicators of today and predicted for tomorrow.
+- An app for cyclists to know the road conditions.
+- An app for elderly to call SOS.
+- An app to provide information on home remedies on common health issues.
+
+<br>
+<b>09/Sep/2020:</b>
+- An aggreator app for all school information/books/reviews.
+- A social network app for pets.
+- A music player app that recommends music based on your max music interests learning from past lists.
+- An app for auto industry to manage servicing and reduce paper workload.
+- An app for consumers to compare automobiles efficiently, including their prices.
+
+
+<br>
 <b>08/Sep/2020:</b>
 - An app to calculate/manage income tax (India).
 - A calendar management app for sports locations.
