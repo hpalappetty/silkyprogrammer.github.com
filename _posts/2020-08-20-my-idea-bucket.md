@@ -5,6 +5,13 @@ layout: post
 <p>In this post, I intend to continue updating 5-10 app ideas that I can generate daily as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
 
 <br>
+<b>15/Sep/2020:</b>
+- An app to share bicycles for rent in apartments (there are many cycles lying down without being used).
+- An app to connect all battery service providers for Auto industry/Consumers in India.
+- An app to consolidate selling of all stationary items in India. We still have to run around to find stuff.
+- An app to consolidate the market for PC parts in India to offer better pricing and discovery.
+
+<br>
 <b>10/Sep/2020:</b>
 - A weather app with pollution indicators of today and predicted for tomorrow.
 - An app for cyclists to know the road conditions.
