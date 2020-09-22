@@ -5,6 +5,27 @@ layout: post
 <p>In this post, I intend to continue updating 5-10 app ideas that I can generate daily as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
 
 <br>
+<b>22/Sep/2020:</b>
+- An app to aggregate all craft work sellers of the world on a single platform.
+- An app to learn about top cyclists and their routines and tricks.
+- An app to share tricks to develop good habits.
+- A very clean app without nasty advertisements/junk for travel destinations.
+- An app for artists to share their creative work with the world.
+- An app for bikers to learn about bikes and their maintenance.
+- An app to source top dolls for kids from around the world.
+
+
+<br>
+<b>18/Sep/2020:</b>
+- An app to manage favorite blogs.
+- An app to connect with all auto service folks seamlessly.
+- An app for managing auto service parts marketplace seamlessly.
+- An app to manage grocery supply/demand levels at home.
+- An app to connect all ice cream vendors as a marketplace in single place.
+- An app to check the BMTC bus availability and routes.
+
+
+<br>
 <b>15/Sep/2020:</b>
 - An app to share bicycles for rent in apartments (there are many cycles lying down without being used).
 - An app to connect all battery service providers for Auto industry/Consumers in India.
