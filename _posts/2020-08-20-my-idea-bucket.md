@@ -5,6 +5,15 @@ layout: post
 <p>In this post, I intend to continue updating 5-10 app ideas that I can generate daily as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
 
 <br>
+<b>28/Sep/2020:</b>
+- An app to collect summary notes on interesting topics.
+- An app to track cricket players and their stats.
+- An app to track football players and their stats.
+- An app to help manage with the information regarding house development and interior decorations.
+- An app to help manage/share information on the process of house registration/khata transfer et.al.
+- An app to help you with recommendations on tax saving options.
+
+<br>
 <b>22/Sep/2020:</b>
 - An app to aggregate all craft work sellers of the world on a single platform.
 - An app to learn about top cyclists and their routines and tricks.
