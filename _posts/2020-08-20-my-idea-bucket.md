@@ -5,6 +5,12 @@ layout: post
 <p>In this post, I intend to continue updating 5-10 app ideas that I can generate daily as an experiement. This is following an inspiration from James Altucher's improve your idea muscle by writing down 10 ideas per day.</p>
 
 <br>
+<b>29/Sep/2020:</b>
+- A price comparison app for Electronic devices, with detailed reviews.
+- An app for learning english words, their root, meanings and synonyms.
+- An app based scientific calculator (look at your old scientific calculator to develop this.)
+
+<br>
 <b>28/Sep/2020:</b>
 - An app to collect summary notes on interesting topics.
 - An app to track cricket players and their stats.
