@@ -1,0 +1,46 @@
+I"�
+<p>These days, there are better ways to edit CSS/JavaScript files and get the live-update without much difficulties.Some of the tools, that will help us achieve this task are as follows:</p>
+
+<blockquote>
+  <ol>
+	<li>Tincr( which I use ) available from http://tin.cr/</li>
+	<li>AutoSave (https://github.com/NV/chrome-devtools-autosave)</li>
+	<li>Livereload ( costs you $9.99)</li>
+</ol>
+</blockquote>
+<p><strong>Option 1:</strong></p>
+
+<p>Tincr is pretty easy to set up on Chrome. All we have to do is to install it from Chrome webstore.</p>
+
+<p>For Django developers , configuration may spring a surprise. You will not see any support for Django projects :) but not to worry, just select the configuration file option, and write a “tincr.json” file drop it to the root of your application. A sample tincr.json file is as follows, this file is used by me ( as you can notice that I have added  CSS and JavaScript files in media directory)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`{
+toFile : [
+  {from: /media/(.+\\.js),
+   to: media/$1},
+   {from: /media/(.+\\.css),
+   to: /media/$1}
+  ],
+  fromFile : [
+     {from: (\\\\|/)media\\1(.+(\\.js|\\.css))(\\.[a-zA-Z]+)?$,
+      to: /media/$2?body=1}
+      ]
+}`
+</code></pre></div></div>
+
+<p>You can have the original configuration file from <a title="Tincr Docs" href="http://tin.cr/docs.html" target="_blank">http://tin.cr/docs.html </a>and modify it according to your project directory structure.</p>
+
+<p><strong>Option 2:</strong></p>
+
+<p>This is a project being developed by <a title="Nikita's website" href="http://elv1s.ru/" target="_blank">Nikita Vasilyev</a> , a good article on how to set this up is written by <a title="Addy Osmani" href="http://addyosmani.com/blog/autosave-changes-chrome-dev-tools/" target="_blank">Addy Osmani</a>. This is a free tool, and has dependency with Node.js.</p>
+
+<p><strong>Option 3:</strong></p>
+
+<p>Livereload is an awesome mac app ( <a title="Live reload website" href="http://livereload.com/" target="_blank">http://livereload.com/</a>) which is available through Mac App Store. It has great support for SASS,Stylus and various other scripting compilers.</p>
+
+<p>Although, it is a great tool. I keep myself away because it is a paid app ( $10 approx.) and I prefer FOSS applications/software.</p>
+
+<p>The very same team has released a linux version which uses browsers, I haven’t tried it though.</p>
+
+<p>So my conclusion, there are plenty of new and interesting tools available in the market to release you from the pain of write+save+click refresh :) . Get your hands dirty and try a bit of HTML/CSS/JavaScript, you can become a better web developer with added skills.</p>
+:ET

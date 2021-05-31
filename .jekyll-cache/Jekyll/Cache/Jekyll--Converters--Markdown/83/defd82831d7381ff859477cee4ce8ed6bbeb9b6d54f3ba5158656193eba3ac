@@ -1,0 +1,60 @@
+I"8<p>
+A manager is a special attribute used to query the Database while using Django framework.
+For e.g. In Django code  <strong>Person.objects.all</strong>
+<strong>Person</strong> is the <strong>model</strong>.
+<strong>objects</strong> is the <em><strong>manager</strong></em><strong></strong>.
+<strong>Points to remember:</strong>
+</p>
+
+<ol>
+	<li>Each Django model has at least one manager.</li>
+	<li>It is possible to write custom managers.</li>
+</ol>
+<p>Why do we need custom manager? There are several reasons , but the most common ones being,</p>
+<ol>
+	<li>To add extra manager methods to provide table-level functionality to models.</li>
+	<li>To modify the initial QuerySet that is returned by the manager.</li>
+	<li>Helps to avoid having duplicate code.</li>
+</ol>
+<p><strong>Example of a custom manager for Person Model</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#models.py
+from django.db import models
+
+class PersonManager(models.Manager):
+	def person_count(self,keyword):
+		return self.filter(name__icontains = keyword).count()
+
+&lt;em&gt;class Person(models.Model):&lt;/em&gt;
+&lt;em&gt; name = models.CharField(max_length=50)&lt;/em&gt;
+# some code goes here ...
+&lt;em&gt;objects = PersonManager()&lt;/em&gt; # This assignment will replace the "default" manager for the model.
+
+&lt;em&gt; Person.objects.person_count('john')&lt;/em&gt; # will return the count of people with name 'John'
+3
+</code></pre></div></div>
+
+<p>You can modify initial QuerySet by overriding Manager.get_query_set() method. A good example is</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;em&gt;class MaleManager(models.Manager):&lt;/em&gt;
+&lt;em&gt; def get_query_set(self):&lt;/em&gt;
+&lt;em&gt; return super(MaleManager, self).get_query_set().filter(sex='M') # filter Male.&lt;/em&gt;
+
+&lt;em&gt;class FemaleManager(models.Manager):&lt;/em&gt;
+&lt;em&gt; def get_query_set(self):&lt;/em&gt;
+&lt;em&gt; return super(FemaleManager, self).get_query_set().filter(sex='F') # filter Female's&lt;/em&gt;
+
+&lt;em&gt;class Person(models.Model):&lt;/em&gt;
+&lt;em&gt; first_name = models.CharField(max_length=50)&lt;/em&gt;
+&lt;em&gt; last_name = models.CharField(max_length=50)&lt;/em&gt;
+&lt;em&gt; sex = models.CharField(max_length=1, choices=(('M', 'Male'), ('F', 'Female')))&lt;/em&gt;
+&lt;em&gt;people = models.Manager()&lt;/em&gt; # default manager
+&lt;em&gt;malemgr = MaleManager()&lt;/em&gt; # manager to manipulate initial query set for filtering males.
+&lt;em&gt;femmgr = FemaleManager()&lt;/em&gt; # manager to manipulate initial query set for filtering females.
+</code></pre></div></div>
+
+<p>Calls to these managers are done as follows:</p>
+<p><em> Person.malemgr.all()</em>
+<em>  Person.femmgr.all()</em>
+<em>  Person.people.all()</em></p>
+:ET

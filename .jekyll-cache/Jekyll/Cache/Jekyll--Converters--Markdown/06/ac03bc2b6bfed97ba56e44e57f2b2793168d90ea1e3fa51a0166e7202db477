@@ -1,0 +1,376 @@
+I"><p>Day1: 08/Sep/2020</p>
+
+<h3 id="what-is-clojure">What is Clojure?</h3>
+<p>Clojure is a delightful and powerful programming language with Lisp heritage.It is developed by Rich Hickey (with weird hair style). Clojure gives you better tools to tackle complex domains like Concurrent programming, parallelism et.al which is generally a bit complex using traditional tools.</p>
+
+<p>It is important to keep in mind the distinction between Clojure language and the Clojure compiler. The Clojure language is a Lisp dialect with an emphasis on functional programming and is independent of any implementation. The Clojure compiler is an executable JAR file(clojure.jar), which takes code written in the Clojure programming language and compiles it into JVM(Java Virtual Machine) bytecode. This distinction is necessary because unlike most programming languages (Python, Ruby, C, C++ et.al) , Clojure is a hosted language. Clojure programs rely on JVM for core features like threading and Garbage collection.</p>
+
+<p>Some of the concepts that we have to keep in mind while learning Clojure are,</p>
+
+<ul>
+  <li>JVM processes execute Java bytecode.</li>
+  <li>Java compiler produces Java bytecode from Java source code.</li>
+  <li>JAR files are collections of Java bytecode.</li>
+  <li>Java programs are usually distributed as JAR files.</li>
+  <li>Java program clojure.jar reads Clojure source code and produces Java bytecode.</li>
+  <li>Java bytecode is then executed by the same JVM process that is already running the clojure.jar</li>
+</ul>
+
+<blockquote>
+  <p>As of this notes preparation the Clojure version is [org.clojure/clojure “1.10.1”]</p>
+</blockquote>
+
+<p>Day2: 09/Sep/2020</p>
+
+<h3 id="leiningen">Leiningen</h3>
+<p>Most Clojurists (a term used to refer to a Clojure developer/practitioner) use Leiningen to build and manage their projects. We’ll focus on the following main tasks here,</p>
+<ol>
+  <li>Creating a new Clojure project</li>
+  <li>Building the Clojure project</li>
+  <li>Running the Clojure project</li>
+  <li>Using the REPL</li>
+</ol>
+
+<p><br /></p>
+<h4 id="installation--other-needs-to-begin">Installation &amp; other needs to begin,</h4>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span> java <span class="nt">-version</span> <span class="o">(</span><span class="k">**</span>To check the Java version, must be higher than JDK1.6<span class="k">**</span><span class="o">)</span>
+<span class="o">&gt;</span> <span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> curl <span class="o">(</span><span class="k">*</span>Install the curl <span class="nb">command</span><span class="k">*</span><span class="o">)</span>
+<span class="o">&gt;</span> curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein <span class="o">&gt;</span> lein <span class="o">(</span><span class="k">*</span>Get the latest stable version of lein script<span class="k">*</span><span class="o">)</span>
+<span class="o">&gt;</span> <span class="nb">sudo mv </span>lein /usr/local/bin/lein <span class="o">(</span><span class="k">*</span>Move the script to user programs directory<span class="k">*</span><span class="o">)</span>
+<span class="o">&gt;</span> <span class="nb">sudo chmod </span>a+x /usr/local/bin/lein <span class="o">(</span><span class="k">*</span>Give execute permissions to the lein script<span class="k">*</span><span class="o">)</span>
+<span class="o">&gt;</span> lein version <span class="o">(</span><span class="k">*</span>To check the installation, and version of lein. It<span class="s1">'ll download clojure.jar*)
+</span></code></pre></div></div>
+
+<p>Day3: 14/Sep/2020</p>
+
+<h4 id="creating-a-new-clojure-project">Creating a new Clojure Project:</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ lein new app clojure-noob
+</code></pre></div></div>
+
+<p>A simple “lein new app [app-name]” creates the skeleton for the project. A basic project set up looks like this,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/learning/clojure/clojure-noob$ ll
+
+-rw-r--r-- 1 statnuts statnuts   778 Sep 14 16:23 CHANGELOG.md
+drwxr-xr-x 2 statnuts statnuts  4096 Sep 14 16:23 doc/
+-rw-r--r-- 1 statnuts statnuts   125 Sep 14 16:23 .gitignore
+-rw-r--r-- 1 statnuts statnuts   162 Sep 14 16:23 .hgignore
+-rw-r--r-- 1 statnuts statnuts 14372 Sep 14 16:23 LICENSE
+-rw-r--r-- 1 statnuts statnuts   479 Sep 14 16:23 project.clj
+-rw-r--r-- 1 statnuts statnuts   987 Sep 14 16:23 README.md
+drwxr-xr-x 2 statnuts statnuts  4096 Sep 14 16:23 resources/
+drwxr-xr-x 3 statnuts statnuts  4096 Sep 14 16:23 src/
+drwxr-xr-x 3 statnuts statnuts  4096 Sep 14 16:26 target/
+drwxr-xr-x 3 statnuts statnuts  4096 Sep 14 16:23 test/
+</code></pre></div></div>
+
+<p>project.clj - is a configuration file for Leiningen. <br />
+src/clojure_noob/core.clj - contains the source code of the project.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ lein run (produces output for this toy program)
+</code></pre></div></div>
+
+<h4 id="bulding-the-clojure-project">Bulding the Clojure Project:</h4>
+<p>Using [lein run], we can test out our code. But, if the need is to share the work with people who do not have Leiningen installed, then the best option is to build the project to create a .jar file, that can be run on any machine with Java installed. To do this, run the following command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ lein uberjar
+</code></pre></div></div>
+
+<p>This is what happens when you run the above command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ lein uberjar
+Compiling clojure-noob.core
+Created /learning/clojure/clojure-noob/target/uberjar/clojure-noob-0.1.0-SNAPSHOT.jar
+Created /learning/clojure/clojure-noob/target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar
+</code></pre></div></div>
+
+<p>The above command creates a .jar file in the /target/uberjar/ folder. You can execute this file by running the following command,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/learning/clojure/clojure-noob$ java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar
+I'm a little teapot!
+</code></pre></div></div>
+
+<h4 id="using-the-repl-read---eval---print---loop">Using the REPL (Read - Eval - Print - Loop):</h4>
+<p>REPL is a tool for quick experimentation with code. In a PM’s (Product Manager) worl, it’s akin to quick prototyping and testing a simple feature/experiment. This enables quick feedback cycle to enable developers to change the approach if required. To start REPL, run the following command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ lein repl
+</code></pre></div></div>
+<p>It generates a bit of verbose info and helps in knowing the version of Clojure &amp; namespace, which is usually in line with your src/[app-name]/core.clj.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/learning/clojure/clojure-noob$ lein repl
+nREPL server started on port 44171 on host 127.0.0.1 - nrepl://127.0.0.1:44171
+REPL-y 0.4.4, nREPL 0.7.0
+Clojure 1.10.1
+OpenJDK 64-Bit Server VM 11.0.8+10-post-Ubuntu-0ubuntu118.04.1
+    Docs: (doc function-name-here)
+          (find-doc "part-of-name-here")
+  Source: (source function-name-here)
+ Javadoc: (javadoc java-object-or-class-here)
+    Exit: Control+D or (exit) or (quit)
+ Results: Stored in vars *1, *2, *3, an exception in *e
+
+</code></pre></div></div>
+
+<p>A basic trial run for the REPL leveraging the (-main) defined in the toy app (core.clj) and few other Lispy stuff,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>clojure-noob.core=&gt; (-main)
+I'm a little teapot!
+nil
+clojure-noob.core=&gt; (+1 2 3 4)
+Execution error (ClassCastException) at clojure-noob.core/eval1619 (form-init5561836152289490106.clj:1).
+class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+
+clojure-noob.core=&gt; (+ 1 2 3 4)
+10
+clojure-noob.core=&gt; (* 1 2 3 4)
+24
+clojure-noob.core=&gt; (first 1 2 3 4)
+Execution error (ArityException) at clojure-noob.core/eval1625 (form-init5561836152289490106.clj:1).
+Wrong number of args (4) passed to: clojure.core/first--5384
+
+clojure-noob.core=&gt; (first [1 2 3 4])
+1
+clojure-noob.core=&gt;
+
+</code></pre></div></div>
+<p>Note: Added few errors deliberately to remember, what happens when you are a human and make mistakes.</p>
+
+<p>Conceptually REPL is similar to Secure Shell (SSH), the Clojure REPL allows you to interact with a running process. This is a powerful feature because, you can attach a REPL to a live production app and modify the program as it runs.</p>
+
+<p>Day4:</p>
+<h3 id="how-to-use-emacs-an-excellent-clojure-editor">How to use EMACS, an excellent Clojure Editor?</h3>
+<p>As we learn along to master Clojure, and important aid(or tool) we will use during the journey is our editor. I choose to follow along with Emacs (wanting to learn this extensible editor for long, so no better excuse than to use it for learning Clojure programming). Emacs offers a very tight integration with Clojure REPL which helps us to create a tight feedback loop as we write programs. Emacs is also great for working with any Lisp dialect; as it is written in a Lisp dialect called Emacs Lisp.</p>
+
+<h4 id="emacs-escape-hatch">Emacs Escape Hatch</h4>
+<p>CTRL + G is one of the most important key combination in the world of Emacs. This combination will help you get out of some of the most astounding situations/troubles during your Emacs journey. This will not kill the Emacs process, but just stops the current action.</p>
+
+<p>Some important key bindings in Emacs,</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Keys</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C-a</td>
+      <td>Move to beginning of the line.</td>
+    </tr>
+    <tr>
+      <td>M-m</td>
+      <td>Move to fist non-whitespace character on the line.</td>
+    </tr>
+    <tr>
+      <td>C-e</td>
+      <td>Move to end of line.</td>
+    </tr>
+    <tr>
+      <td>C-f</td>
+      <td>Move forward one character.</td>
+    </tr>
+    <tr>
+      <td>C-b</td>
+      <td>Move backward one character.</td>
+    </tr>
+    <tr>
+      <td>M-f</td>
+      <td>Move forward one word.</td>
+    </tr>
+    <tr>
+      <td>M-b</td>
+      <td>Move backward one word.</td>
+    </tr>
+    <tr>
+      <td>C-s</td>
+      <td>Regex search for text in current buffer and move to it. Press C-s again to move to next match.</td>
+    </tr>
+    <tr>
+      <td>C-r</td>
+      <td>Same as C-s, but search in reverse.</td>
+    </tr>
+    <tr>
+      <td>M-&lt;</td>
+      <td>Move to the beginning of buffer.</td>
+    </tr>
+    <tr>
+      <td>M-&gt;</td>
+      <td>Move to end of the buffer.</td>
+    </tr>
+    <tr>
+      <td>M-g g</td>
+      <td>Go to line.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Hail Killing and Yanking Text,</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Keys</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C-w</td>
+      <td>Kill region.</td>
+    </tr>
+    <tr>
+      <td>M-w</td>
+      <td>Copy region to kill ring.</td>
+    </tr>
+    <tr>
+      <td>C-y</td>
+      <td>Yank.</td>
+    </tr>
+    <tr>
+      <td>M-y</td>
+      <td>Cycle through kill ring after yanking.</td>
+    </tr>
+    <tr>
+      <td>M-d</td>
+      <td>Kill word.</td>
+    </tr>
+    <tr>
+      <td>C-k</td>
+      <td>Kill line.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Editing and Help,</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Keys</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tab</td>
+      <td>Indent line</td>
+    </tr>
+    <tr>
+      <td>C-j</td>
+      <td>New line and indent, equivalent to ENTER followed by TAB.</td>
+    </tr>
+    <tr>
+      <td>M-/</td>
+      <td>Hippie expand; cycles through possible expansions of the text before point.</td>
+    </tr>
+    <tr>
+      <td>M-\</td>
+      <td>Delete all spaces and tabs around point.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Day 5:</p>
+
+<h4 id="working-with-files">Working with Files</h4>
+<p>The key binding to open a file in emacs is</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x C-f
+</code></pre></div></div>
+<p>To save the file after writing content to it,</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x C-s
+</code></pre></div></div>
+
+<p>Few interesting key bindings that are useful,</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x k -&gt; to kill the current buffer.
+C-x b [buffer_name] -&gt; to switch the buffer
+</code></pre></div></div>
+<p>key bindings - what is it? Emacs actually binds keystrokes to commands, which are just elips functions. E.g. C-x b is bound to the function switch-to-buffer. Likewise, C-x C-s is bound to save-file.You can redefine functions, because at its core Emacs is just a Lisp interpreter. The freedome to modify Emacs using a powerful programming language is what makes Emacs so flexible and why some programmers really like it.</p>
+
+<h4 id="modes">Modes</h4>
+<p>An Emacs mode is a collection of key bindings and functions that are packaged together to help you become productive when editing different types of files. Modes come in two flavors: major modes and minor modes. Many modes are distributed as packages , and they can be browsed and installed using the following commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x package-list-packages
+M-x package-install
+</code></pre></div></div>
+
+<h4 id="core-editing-terminology-and-key-bindings">Core Editing Terminology and Key Bindings</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Keys</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C-spc</td>
+      <td>To mark set</td>
+    </tr>
+    <tr>
+      <td>C-w</td>
+      <td>Kill region.</td>
+    </tr>
+    <tr>
+      <td>M-w</td>
+      <td>Copy region to kill ring.</td>
+    </tr>
+    <tr>
+      <td>C-y</td>
+      <td>Yank</td>
+    </tr>
+    <tr>
+      <td>M-y</td>
+      <td>Cycle through kill ring after yanking.</td>
+    </tr>
+    <tr>
+      <td>M-d</td>
+      <td>Kill word.</td>
+    </tr>
+    <tr>
+      <td>C-k</td>
+      <td>Kill line.</td>
+    </tr>
+    <tr>
+      <td>Tab</td>
+      <td>Indent line.</td>
+    </tr>
+    <tr>
+      <td>C-j</td>
+      <td>New line and indent, equivalent to ENTER followed by TAB.</td>
+    </tr>
+    <tr>
+      <td>M-/</td>
+      <td>Hippie expand; cycles through possible expansions of the text before point.</td>
+    </tr>
+    <tr>
+      <td>M-\</td>
+      <td>Delete all spaces and tabs around point.</td>
+    </tr>
+    <tr>
+      <td>C-h k key-binding</td>
+      <td>Describe the function bound to the key binding. To get this to work, you actually perform the key sequence after typing C-h k.</td>
+    </tr>
+    <tr>
+      <td>C-h f</td>
+      <td>Describe function</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Day 6 : 25/Sep/2020</p>
+<h4 id="using-emacs-with-clojure">Using Emacs with Clojure</h4>
+
+<p><br /></p>
+<h2 id="references">References</h2>
+<p><br /></p>
+<h3 id="books">Books:</h3>
+<p><br /></p>
+<h3 id="links">Links:</h3>
+<ol>
+<li>Beginner’s Guide to Emacs : http:// www.masteringemacs.org/articles/2010/10/04/beginners-guide-to-emacs/ </li>
+</ol>
+
+:ET
