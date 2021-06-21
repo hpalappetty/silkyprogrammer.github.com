@@ -1,4 +1,4 @@
 ---
-title: Python Notes
+title: HBase Notes
 layout: post
 ---
