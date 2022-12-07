@@ -6,7 +6,8 @@ I Use following tools while writing posts:
 
 # Editor:
  - ~~ SublimeText(Editor of Choice) - till Aug, 2021 ~~
- - Visual Studio Code(Editor of Choice) - from Aug, 2021    
+ - Visual Studio Code(Editor of Choice) - till Nov, 2022
+ - ~~ SublimeText(Editor of Choice) - from Dec, 2022 ~~
 
 # Machine:
 - Macbook Air 13-inch (2021) - Apple M1 Chip ***Preferred***
