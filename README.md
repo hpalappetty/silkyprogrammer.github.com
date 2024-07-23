@@ -14,4 +14,4 @@ I Use following tools while writing posts:
 - Macbook Air 13-inch (2021 - 2024) - Apple M1 Chip ***Primary - Gave away***
 - Thinkpad - T470 (2017) - running Ubuntu 20.04.2 LTS ***Secondary - Gae away***
 - Macbook Pro 14-inch (2024 - onwards) - Apple M3 chip ***Primary***
-- Asus Vivobook S16 OLED (2024 - onwards) on Windows with WSL ***Seconday***
+- Asus Vivobook S16 OLED (2024 - onwards) on Windows with WSL ***Secondary***
